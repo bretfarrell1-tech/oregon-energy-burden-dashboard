@@ -1,0 +1,39 @@
+{
+  "name": "oregon-energy-burden-dashboard",
+  "version": "1.0.0",
+  "description": "Interactive dashboard visualizing energy burden metrics for Oregon regulated utilities",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.10.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "gh-pages": "^6.1.0",
+    "vite": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/oregon-energy-burden-dashboard.git"
+  },
+  "keywords": [
+    "oregon",
+    "puc",
+    "energy-burden",
+    "utilities",
+    "dashboard",
+    "data-visualization"
+  ],
+  "author": "Oregon PUC Staff",
+  "license": "MIT"
+}
